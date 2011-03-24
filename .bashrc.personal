@@ -1,0 +1,15 @@
+PATH="$PATH:~/bin"
+
+
+#Prompt
+if [ $UID == 0 ];then
+  PS11='\033[01;31m(\u@\h)\033[m     \033[00;31m{$?}\033[m       \033[00;32m[`pwd -P | tail --bytes 60`]\033[m';
+	cd `cat ~sdoerner/.pwd.tmp`;
+else
+	PS11='\033[01;36m(\u@\h)\033[m     \033[00;31m{$?}\033[m       \033[00;32m[`pwd -P | tail --bytes 60`]\033[m';
+fi
+PS12='       \033[01;33m$(__git_ps1 "(%s)")\033[m\n> '
+PS1=$PS11$PS12;
+
+PROMPT_COMMAND='PS1="'$PS1'"';
+export PS1

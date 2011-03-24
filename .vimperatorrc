@@ -1,0 +1,6 @@
+set go=B
+hi StatusLine color:black; background:white;
+set editor="urxvt -e vim"
+map w ow
+imap <C-p> <Esc><C-p>
+imap <C-n> <Esc><C-n>

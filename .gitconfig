@@ -1,0 +1,19 @@
+[user]
+	name = Sebastian Dörner
+	email = sebastian@sebastian-doerner.de
+[color]
+	ui = auto
+[alias]
+	st = status
+	ci = commit
+[core]
+	pager = less -FRSX
+	editor = vim
+[merge]
+	tool = kdiff3
+[url "git://anongit.kde.org/"]
+  insteadOf = kde:
+[url "ssh://git@git.kde.org/"]
+  pushInsteadOf = kde:
+[reviewboard]
+  url = https://git.reviewboard.kde.org
