@@ -1,0 +1,8 @@
+$CONFIG{'owner'} = q{Sebastian Dörner};
+$CONFIG{'email'} = q{sdoerner@st.ovgu.de};
+$CONFIG{'keyid'} = [ qw{4A2B46181C6B9BE5 287E3B9850B598E1} ];
+$CONFIG{'local-user'} = [ qw{4A2B46181C6B9BE5 287E3B9850B598E1} ];
+$CONFIG{'also-encrypt-to'} = q{4A2B46181C6B9BE5};
+$CONFIG{'bcc'} = q{orunarth+pgp@googlemail.com};
+$CONFIG{'keyserver'} = 'pool.sks-keyservers.net';
+$CONFIG{'no-download'} = 0;
